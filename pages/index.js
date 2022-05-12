@@ -6,5 +6,7 @@ import { abi, NFT_CONTRACT_ADDRESS } from "../constants";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+  //keeps track of wallet connected or not
+  const [walletConnected, setWalletConnected] = useState(false);
 
 }
